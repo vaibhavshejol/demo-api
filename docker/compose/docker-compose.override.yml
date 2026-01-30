@@ -1,0 +1,6 @@
+services:
+  demo-api:
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile
+    image: demo-api:local

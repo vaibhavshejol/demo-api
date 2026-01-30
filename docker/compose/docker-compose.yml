@@ -1,0 +1,7 @@
+services:
+  demo-api:
+    image: bntsoftvaibhav/demo-api:${IMAGE_VERSION}
+    container_name: demo-api
+    ports:
+      - "9090:9090"
+    restart: unless-stopped
